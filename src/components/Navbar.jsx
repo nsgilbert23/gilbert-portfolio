@@ -45,6 +45,13 @@ function Navbar() {
           </a>
 
           <a
+            href="#labs"
+            className="text-sm font-medium text-slate-300 transition duration-300 hover:text-cyan-400"
+          >
+            Labs
+          </a>
+
+          <a
             href="#education"
             className="text-sm font-medium text-slate-300 transition duration-300 hover:text-cyan-400"
           >
@@ -151,6 +158,14 @@ function Navbar() {
             className="text-slate-300 transition hover:text-cyan-400"
           >
             Projects
+          </a>
+
+          <a
+            href="#labs"
+            onClick={closeMenu}
+            className="text-slate-300 transition hover:text-cyan-400"
+          >
+            Labs
           </a>
 
           <a
